@@ -5,7 +5,7 @@ Welcome to the **Sky130 CMOS Workshop**! 🎓
 This README captures **Day 1 → Day 5 experiments** including **MOSFET characterization, inverter design, noise margins, and device/supply variation studies** using the **Sky130 PDK**.  
 
 ## 📂 Quick Links to SPICE Files
-- [1st_DAY.spice](./1st_DAY.spice) – NFET Id–Vds Characterization 🟢  
+- [1st_DAY.spice](./1st_DAY) – NFET Id–Vds Characterization 🟢  
 - [2nd_DAY.spice](./2nd_DAY.spice) – NFET Id–Vds & Id–Vgs Analysis 🔵  
 - [3rd_DAY.spice](./3rd_DAY.spice) – CMOS Inverter VTC & Transient Response 🟣  
 - [4th_DAY.spice](./4th_DAY.spice) – Noise Margin / Robustness Analysis 🟡  
