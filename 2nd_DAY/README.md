@@ -98,10 +98,11 @@ setplot dc1
   * **Saturation region:** Id ≈ constant beyond Vds ≈ Vgs − Vth
   * **Threshold point:** intersection from extrapolated line
 
-📎 *Attach ngspice screenshots here.*
-<img width="1920" height="1080" alt="day2_nfet_idvds_L015_W039" src="https://github.com/user-attachments/assets/12ad8d96-2828-48a5-a978-cb90f0cc03b4" />
-<img width="1754" height="1006" alt="day_2_Id_vds_waveform" src="https://github.com/user-attachments/assets/7781eca9-4453-4658-9148-a15c91baf2ca" />
-<img width="1920" height="1080" alt="day2_nfet_idvgs_L015_W039" src="https://github.com/user-attachments/assets/127d3d7b-1fc7-4e9e-83cd-d7425f2afced" />
+📎 *Ngspice screenshots:*
+
+<img width="1920" height="1080" alt="day2_nfet_idvds_L015_W039" src="https://github.com/user-attachments/assets/12ad8d96-2828-48a5-a978-cb90f0cc03b4" />  
+<img width="1754" height="1006" alt="day_2_Id_vds_waveform" src="https://github.com/user-attachments/assets/7781eca9-4453-4658-9148-a15c91baf2ca" />  
+<img width="1920" height="1080" alt="day2_nfet_idvgs_L015_W039" src="https://github.com/user-attachments/assets/127d3d7b-1fc7-4e9e-83cd-d7425f2afced" />  
 <img width="1754" height="1006" alt="day_2_Id_vgs_waveform" src="https://github.com/user-attachments/assets/add25a80-cdd7-4215-a25f-b4469414a334" />
 
 ---
@@ -110,9 +111,9 @@ setplot dc1
 
 | Parameter    | Description                         | Extracted Value |
 | ------------ | ----------------------------------- | --------------- |
-| **Vth**      | Threshold voltage (from Id–Vgs)     | [your value] V  |
-| **Id_sat**   | Saturation current (at Vgs = 1.8 V) | [your value] µA |
-| **Vds(sat)** | Saturation onset ≈ Vgs − Vth        | [your value] V  |
+| **Vth**      | Threshold voltage (from Id–Vgs)     | 0.48 V          |
+| **Id_sat**   | Saturation current (at Vgs = 1.8 V) | 135 µA          |
+| **Vds(sat)** | Saturation onset ≈ Vgs − Vth        | 0.47 V          |
 
 ---
 
