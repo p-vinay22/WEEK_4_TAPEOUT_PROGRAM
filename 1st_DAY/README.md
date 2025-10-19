@@ -112,5 +112,3 @@ setplot dc1
 
 ---
 
-
-Do you want me to continue with **Day 2**?
