@@ -20,6 +20,8 @@ Goals:
 
 ## ⚙️ **SPICE Netlist**
 
+*(Same as original — DC sweep to extract VTC.)*
+
 ```spice
 *******************************************************
 * 📁 File: inverter_noise_margin_day4.spice
@@ -55,8 +57,6 @@ display
 .end
 ```
 
-> 🔹 This DC sweep generates the **VTC (Vout vs Vin)** needed for noise margin extraction.
-
 ---
 
 ## 📊 **Plots & Figures**
@@ -69,24 +69,23 @@ display
   * **VOL** → Output LOW at Vin = VIL
   * **VOH** → Output HIGH at Vin = VIH
 
-### 📎 Annotated ngspice screenshot 
+### 📎 Annotated ngspice screenshot
+
 <img width="1920" height="1080" alt="day4_inv_noisemargin_wp1_wn036" src="https://github.com/user-attachments/assets/36fe65c0-2ed3-4ce4-9cba-9755b8f08f80" />
 <img width="1754" height="1006" alt="day_4_inverter_noise_margin" src="https://github.com/user-attachments/assets/5e9c4d4f-39be-4418-b7ef-40a24fabb33d" />
 
 ---
 
-## 📋 **Tabulated Results**
+## 📋 **Tabulated Results (Example Values)**
 
-| Parameter | Description        | Value          |
-| --------- | ------------------ | -------------- |
-| **VIL**   | Max input LOW      | [your value] V |
-| **VIH**   | Min input HIGH     | [your value] V |
-| **VOL**   | Output LOW at VIL  | [your value] V |
-| **VOH**   | Output HIGH at VIH | [your value] V |
-| **NML**   | Noise Margin Low   | [your value] V |
-| **NMH**   | Noise Margin High  | [your value] V |
-
-*(Replace `[your value]` with simulation results.)*
+| Parameter | Description        | Value  |
+| --------- | ------------------ | ------ |
+| **VIL**   | Max input LOW      | 0.65 V |
+| **VIH**   | Min input HIGH     | 1.15 V |
+| **VOL**   | Output LOW at VIL  | 0.05 V |
+| **VOH**   | Output HIGH at VIH | 1.75 V |
+| **NML**   | Noise Margin Low   | 0.60 V |
+| **NMH**   | Noise Margin High  | 0.60 V |
 
 ---
 
@@ -114,3 +113,6 @@ display
 * GitHub: [Sky130CircuitDesignWorkshop](https://github.com/kunalg123/sky130CircuitDesignWorkshop)
 
 ---
+
+
+Do you want me to do that next?
