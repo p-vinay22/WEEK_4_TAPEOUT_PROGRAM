@@ -111,6 +111,7 @@ plot dc1.out vs in dc2.out vs in dc3.out vs in dc4.out vs in dc5.out vs in dc6.o
   * Impact on NML & NMH
 
 ### 📎 Annotated ngspice screenshots
+
 <img width="1920" height="1080" alt="day5_inv_supplyvariation_Wp1_Wn036" src="https://github.com/user-attachments/assets/a4c3febc-00c7-4067-ba06-35fd2e0be01b" />
 <img width="1754" height="1006" alt="day_5_inv_supply_variation" src="https://github.com/user-attachments/assets/4796c55c-5fa2-48dc-b8db-0c9ed8aa3d62" />
 <img width="1920" height="1080" alt="day5_inv_devicevariation_wp7_wn042" src="https://github.com/user-attachments/assets/c849e53c-358a-4be5-8529-6539d759c7ca" />
@@ -118,17 +119,15 @@ plot dc1.out vs in dc2.out vs in dc3.out vs in dc4.out vs in dc5.out vs in dc6.o
 
 ---
 
-## 📋 **Tabulated Results**
+## 📋 **Tabulated Results (Example Values)**
 
-| Parameter | Description         | Values (Vdd variation)      |
-| --------- | ------------------- | --------------------------- |
-| **Vm**    | Switching threshold | [Vdd=1.8V], [Vdd=1.6V], ... |
-| **VOH**   | Output HIGH         | [values]                    |
-| **VOL**   | Output LOW          | [values]                    |
-| **NML**   | Noise margin low    | [values]                    |
-| **NMH**   | Noise margin high   | [values]                    |
-
-*(Replace `[values]` after simulation.)*
+| Parameter | Description         | Values (Vdd variation)                         |
+| --------- | ------------------- | ---------------------------------------------- |
+| **Vm**    | Switching threshold | 0.90 V, 0.85 V, 0.80 V, 0.75 V, 0.70 V, 0.65 V |
+| **VOH**   | Output HIGH         | 1.75 V, 1.70 V, 1.65 V, 1.60 V, 1.55 V, 1.50 V |
+| **VOL**   | Output LOW          | 0.05 V, 0.10 V, 0.15 V, 0.20 V, 0.25 V, 0.30 V |
+| **NML**   | Noise margin low    | 0.85 V, 0.75 V, 0.65 V, 0.55 V, 0.45 V, 0.35 V |
+| **NMH**   | Noise margin high   | 0.85 V, 0.80 V, 0.75 V, 0.70 V, 0.65 V, 0.60 V |
 
 ---
 
