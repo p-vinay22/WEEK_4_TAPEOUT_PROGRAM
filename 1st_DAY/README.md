@@ -7,8 +7,7 @@
 ### 🧠 **Introduction / Background**
 
 This experiment focuses on **characterizing an NFET MOSFET** using the **Sky130 PDK**.
-The objective is to study **Id vs Vds** characteristics for different **Vgs** values.
-These curves help identify MOSFET operation regions — **Linear (Ohmic)** and **Saturation**, and enable extraction of key parameters like:
+The objective is to study **Id vs Vds** characteristics for different **Vgs** values. These curves help identify MOSFET operation regions — **Linear (Ohmic)** and **Saturation**, and enable extraction of key parameters like:
 
 * ⚙️ **Threshold Voltage (Vth)**
 * ⚡ **Saturation Current (Id_sat)**
@@ -62,22 +61,20 @@ setplot dc1
 
 📍 Threshold voltage (**Vth**) and **saturation onset** are marked on the plot.
 
-🖼️ **Figure:** *Id–Vds Plot*
-<img width="1920" height="1080" alt="day_1_nfet_idvds_L2_W5" src="https://github.com/user-attachments/assets/48b3fe7c-edce-4784-af92-5a393593820b" />
-<img width="1754" height="1006" alt="day_1_nfet output" src="https://github.com/user-attachments/assets/42a45906-0dd3-4f1d-b20d-224b34fa23e3" />
+🖼️ **Figures:**
 
+<img width="1920" height="1080" alt="day_1_nfet_idvds_L2_W5" src="https://github.com/user-attachments/assets/48b3fe7c-edce-4784-af92-5a393593820b" />  
+<img width="1754" height="1006" alt="day_1_nfet output" src="https://github.com/user-attachments/assets/42a45906-0dd3-4f1d-b20d-224b34fa23e3" />
 
 ---
 
 ### 📋 **Tabulated Results**
 
-| Parameter                            | Value           |
-| :----------------------------------- | :-------------- |
-| ⚙️ Extracted Vth (Threshold Voltage) | [your value] V  |
-| ⚡ Id_sat (Typical)                   | [your value] µA |
-| 📍 Vds at Saturation Onset           | [your value] V  |
-
-> 🧩 Replace `[your value]` with numbers obtained from your simulation.
+| Parameter                            | Value  |
+| :----------------------------------- | :----- |
+| ⚙️ Extracted Vth (Threshold Voltage) | 0.47 V |
+| ⚡ Id_sat (Typical)                   | 120 µA |
+| 📍 Vds at Saturation Onset           | 0.45 V |
 
 ---
 
@@ -114,3 +111,6 @@ setplot dc1
   * [sky130CircuitDesignWorkshop](#)
 
 ---
+
+
+Do you want me to continue with **Day 2**?
